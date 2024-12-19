@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+</head>
+<body>
+    
+    {% if head %}
+    <h2>Data Preview</h2>
+    {{ head|safe }}
+
+    <h2>Summary Statistics</h2>
+    {{ description|safe }}
+
+    <h2>Missing Values</h2>
+    
+    {{ missing_values|safe }}
+
+    <h2>Histograms</h2>
+    {% for column, plot_path in histograms.items %}
+        <div>
+            <h3>{{ column }}</h3>
+            <img src="/media/{{ plot_path }}" alt="Histogram for {{ column }}">
+        </div>
+    {% endfor %}
+{% endif %} 
+
+
+</body>
+</html>
