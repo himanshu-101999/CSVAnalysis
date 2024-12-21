@@ -1,9 +1,7 @@
 # CSV Analysis Project
 
 
-```
 The CSV Analysis Project is designed to simplify the process of Exploratory Data Analysis (EDA) for users who may not have advanced technical expertise. The application allows users to upload a CSV file via a web interface  analyzes the dataset to provide a detailed overview, Visualizes key insights. leveraging powerful Python libraries like Pandas, Matplotlib,  Seaborn, The system can generate Statistical summaries, Identify missing data, and create intuitive Visualizations such as Histograms for numerical columns.
-```
 
 
 ---
