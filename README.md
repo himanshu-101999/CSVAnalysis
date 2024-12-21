@@ -1,6 +1,10 @@
 # CSV Analysis Project
 
-This is a Django-based web application that allows users to upload CSV files, perform basic data analysis, and visualize the results. The project demonstrates data handling, analysis, and visualization using Pandas, NumPy, Matplotlib, and Seaborn.
+
+```
+The CSV Analysis Project is designed to simplify the process of Exploratory Data Analysis (EDA) for users who may not have advanced technical expertise. The application allows users to upload a CSV file via a web interface  analyzes the dataset to provide a detailed overview, Visualizes key insights. leveraging powerful Python libraries like Pandas, Matplotlib,  Seaborn, The system can generate Statistical summaries, Identify missing data, and create intuitive Visualizations such as Histograms for numerical columns.
+```
+
 
 ---
 
@@ -93,14 +97,14 @@ The project includes the following URL paths:
 ```
 csv_analysis_project/
 ├── analysis_app/           # Main Django app
-│   ├── templates/          # HTML templates
+│   ├── templates/           # HTML templates
 │   ├── views.py            # View logic
 │   ├── models.py           # Models (if used)
 │   ├── urls.py             # App URLs
 ├── media/                  # Directory for uploaded files and generated plots
 ├── static/                 # Static files (CSS, JS, etc.)
 ├── templates/              # Base templates
-├── db.sqlite3              # SQLite database
+├── db.sqlite3               # SQLite database
 ├── manage.py               # Django management script
 ├── requirements.txt        # List of dependencies
 ├── testing_data.csv        # CSV file to test the system : TESTING DATASET
@@ -153,5 +157,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-For any questions or suggestions, please reach out to the project owner at [Your Email/Contact Info].
+For any questions or suggestions, please reach out to the project owner at [himanshurajvis12@gmail.com].
 

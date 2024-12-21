@@ -4,6 +4,6 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-    path('upload/', views.upload_csv, name='upload_csv'),
+    path('', views.upload_csv, name='upload_csv'),
     path("analysis/",views.analysis, name="analysis"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

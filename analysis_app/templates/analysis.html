@@ -22,7 +22,7 @@
     {% for column, plot_path in histograms.items %}
         <div>
             <h3>{{ column }}</h3>
-            <img src="/media/{{ plot_path }}" alt="Histogram for {{ column }}">
+            <img src="{{ plot_path }}" alt="Histogram for {{ column }}">
         </div>
     {% endfor %}
 {% endif %} 
